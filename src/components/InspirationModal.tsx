@@ -8,15 +8,15 @@ interface InspirationModalProps {
 
 const inspirationImages = [
   {
-    url: '/eddie_sniper.png',
+    url: `${import.meta.env.BASE_URL}/eddie_sniper.png`,
     caption: 'A sniper looking through a scope connected monitor to a target on water.',
   },
   {
-    url: '/long_range_view.png',
+    url: `${import.meta.env.BASE_URL}/long_range_view.png`,
     caption: 'A visual of the scope\'s view on the monitor and the precise distance of the target.',
   },
   {
-    url: '/aerial_view.png',
+    url: `${import.meta.env.BASE_URL}/aerial_view.png`,
     caption: 'An aerial shot of the boat in vast emptiness of the ocean.',
   },
 ];
